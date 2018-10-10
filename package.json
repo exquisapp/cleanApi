@@ -1,0 +1,31 @@
+{
+  "name": "cleanapi",
+  "version": "0.0.1",
+  "description": "rest api created with nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec node server.js"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "node",
+    "express",
+    "jwt"
+  ],
+  "author": "Segun Abolaji",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.15",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
